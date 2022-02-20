@@ -1,0 +1,30 @@
+// Mckinsey Online Assessment : Calculate Max profitable months for stock.
+// K is value of min months stock should be profitable, find how many windows a stock is profitable for k months
+//Space O(n), Time O(n)
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	 
+	 int[] arr =  new int[]{5,3,5,7,8};
+	 Stack<Integer> s = new Stack();
+	 
+	 int k =3;
+	 int count =0;
+	 
+	 for(int i=0;i< arr.length;i++){
+	    if(s.size() > 0 && s.peek()>=arr[i]){
+	         s.clear();// window becomes invalid, clear stack and start fresh
+	     }
+	     s.push(arr[i]);
+	     
+	    if(s.size()>=k){
+	         count ++; // every window is valid as stock price is increasing
+	    }
+	   
+	   }
+	   System.out.println(count);
+	}
+}
