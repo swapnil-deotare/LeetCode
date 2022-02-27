@@ -20,6 +20,7 @@ class Solution {
                // System.out.println("Temp is processing:" + temp.val);
                 if( temp!= null && head.val == temp.val){
                     temp= temp.next;
+                    
                 }else{
                     head.next=temp;
                     head=head.next;
