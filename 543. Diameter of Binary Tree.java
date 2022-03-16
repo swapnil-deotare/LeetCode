@@ -20,6 +20,7 @@ class Solution {
         diameter = 0;
         longestPath(root);
         return diameter;
+        
     }
     private int longestPath(TreeNode node){
         if(node == null) return 0;
