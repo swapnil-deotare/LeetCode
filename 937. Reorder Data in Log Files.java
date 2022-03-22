@@ -21,6 +21,7 @@ class Solution {
                     // logs of same content, compare the identifiers
                     return split1[0].compareTo(split2[0]);
                 }
+                
 
                 // case 2). one of logs is digit-log
                 if (!isDigit1 && isDigit2)
