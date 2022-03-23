@@ -22,7 +22,6 @@ class Solution {
                     return split1[0].compareTo(split2[0]);
                 }
                 
-
                 // case 2). one of logs is digit-log
                 if (!isDigit1 && isDigit2)
                     // the letter-log comes before digit-logs
