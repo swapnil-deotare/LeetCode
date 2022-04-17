@@ -12,6 +12,7 @@ class Solution {
             }
             pRight += 1;
         }
+        
         return pLeft == leftBound;
     }
 }
