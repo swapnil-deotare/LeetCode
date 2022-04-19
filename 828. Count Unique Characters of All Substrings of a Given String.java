@@ -15,8 +15,6 @@ class Solution {
         
         for (int c = 0; c < 26; ++c)
             res = (res + (N - index[c][1]) * (index[c][1] - index[c][0]) % mod) % mod;
-        
-        
         return res;
     }
 }
