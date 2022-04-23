@@ -11,6 +11,7 @@ public class Solution {
                 buzz=0;
             }else if(fizz==3){
                 ret.add("Fizz");
+                
                 fizz=0;
             }else if(buzz==5){
                 ret.add("Buzz");
