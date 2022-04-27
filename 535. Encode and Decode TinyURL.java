@@ -5,6 +5,7 @@ public class Codec {
     String key = getRand();
 
     public String getRand() {
+        
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < 6; i++) {
             sb.append(alphabet.charAt(rand.nextInt(62)));
