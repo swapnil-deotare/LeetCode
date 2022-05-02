@@ -8,6 +8,7 @@ public class Solution {
             if(fizz==3 && buzz==5){
                 ret.add("FizzBuzz");
                 fizz=0;
+                
                 buzz=0;
             }else if(fizz==3){
                 ret.add("Fizz");
