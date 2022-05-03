@@ -10,6 +10,7 @@ class Solution {
             if (s.charAt(pLeft) == t.charAt(pRight)) {
                 pLeft += 1;
             }
+            
             pRight += 1;
         }
         
