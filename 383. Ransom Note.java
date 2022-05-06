@@ -9,6 +9,7 @@ public class Solution {
             if(--arr[ransomNote.charAt(i)-'a'] < 0) {
                 return false;
             }
+            
         }
         return true;
     }
