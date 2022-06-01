@@ -34,6 +34,7 @@ class RandomizedSet {
     }
   
     /** Get a random element from the set. */
+    
     public int getRandom() {
       return list.get(rand.nextInt(list.size()));
     }
