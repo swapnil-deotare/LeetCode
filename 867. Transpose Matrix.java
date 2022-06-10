@@ -6,6 +6,7 @@ class Solution {
             for (int c = 0; c < C; ++c) {
                 ans[c][r] = A[r][c];
             }
+            
         return ans;
     }
 }
